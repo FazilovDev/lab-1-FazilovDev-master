@@ -1,0 +1,293 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+body {
+  background-color: #FFFFFF;
+  color: #262b33;
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+.actions__download-btn {
+  background-color: #3666F7;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.133984px;
+  appearance: none;
+  outline: none;
+  text-align: center;
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: background-color .1s ease;
+  border: none;
+  border-radius: 6px;
+}
+
+.actions__download-btn:hover {
+  background-color: #0940E7;
+}
+
+.header {
+  background-color: #F5F5F5;
+  height: 250px;
+  position: relative;
+}
+
+.header__content {
+  padding: 45px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__text {
+  color: #000000;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-decoration: none;
+}
+
+.resume-container {
+  margin-bottom: 180px;
+  margin-top: -125px;
+}
+
+.resume-page {
+  position: relative;
+  background-color: #FFFFFF;
+  border: 1px solid #D7D7D7;
+  border-radius: 5px;
+  width: 900px;
+  min-height: 1200px;
+  margin: auto;
+  z-index: 2;
+}
+
+.resume-page__content {
+  padding: 70px;
+}
+
+.personal-info__block {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.resume-header {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume-header__name {
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.resume-header__job {
+  font-size: 24px;
+  color: #555555;
+  line-height: 34px;
+}
+
+.resume__header__contact_info {
+  color: #AAAAAA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+  text-align: right;
+  line-height: 32px;
+}
+
+.profile-image__container {
+  display: flex;
+}
+
+.intro-info {
+  margin-top: 40px;
+  margin-bottom: 48px;
+  color: #555555;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.content__block {
+  display: flex;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.education-block {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.education-body__text {
+  margin-top: 16px;
+  font-size: 18px;
+  flex-basis: 450px;
+  line-height: 24px;
+}
+
+.coursworks {
+  margin-top: 16px;
+  font-size: 18px;
+  flex-basis: 450px;
+  line-height: 24px;
+}
+
+.skills {
+  display: flex;
+}
+
+.column_stile {
+  margin-top: 13px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+}
+
+.public_talks-block {
+  margin-top: 40px;
+}
+
+.public_talk-date {
+  font-size: 14px;
+  line-height: 17px;
+  color: #CCCCCC;
+  margin-top: 8px;
+}
+
+.public_talks {
+  margin-top: 16px;
+}
+
+.graduation-period {
+  font-size: 14px;
+  line-height: 17px;
+  color: #CCCCCC;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.list_text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #555555;
+  margin-bottom: 12px;
+}
+
+.work-item {
+  margin-top: 16px;
+}
+
+ul.work-dash {
+  list-style: none;
+  margin-bottom: 12px;
+  padding-left: 0em;
+}
+
+ul.work-dash > li:before {
+  display: inline-block;
+  text-indent: 1em;
+  content: "— ";
+  margin-left: -1em;
+}
+
+.languages-block{
+  margin-top: 103px;
+}
+
+.languages {
+  margin-top: 16px;
+}
+
+.text-purple {
+  color: #A066F8;
+}
+
+.text-green {
+  color: #32CD88;
+}
+
+.text-blue {
+  color: #38BEF8;
+}
+
+.title-red {
+  color: #FB746A;
+}
+
+.footer {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.social-icons li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-icons li a {
+  color: #000000;
+}
+
+.fab {
+  transform: scale(1.5,1.5);
+}
+
+.social-icons li a:hover {
+  color: #346afd !important;
+}
